@@ -1,0 +1,346 @@
+/* Colors 
+    #000 - black -header stripe color
+    #ef1e1c - bright red - footer color stripe
+    #fff - white - main body color
+    #1be9ed - bright blue - accent/hightlight color
+    #01baef - faded blue -  alternative/ main color
+    #424b54 - grey
+    /////////////////////////////////////////////////
+    #E71D36 - new red
+    #1A1A1A - new grey
+    #1BE9ED - new blue
+    ////////////////////////////////////////////
+    #d10d1c - logo red
+*/
+
+#header_stripe {
+    background-color: #E71D36;
+    color: #fff;
+    min-height: 100px;
+}
+
+#main {
+    background-color: #1A1A1A;
+    min-height: 840px; 
+    position: relative;
+    z-index: -100;
+}
+
+@media screen and (max-width: 600px) {
+    #main {
+        background-color: #1A1A1A;
+        min-height: 600px; 
+    }
+}
+
+#bio {
+    background-color: #fff;
+    min-height: 835px;
+}
+
+#portait {
+    height: 515px;
+    max-width: 500px;
+    margin: 55px auto 35px auto;
+    position: relative;
+    z-index: 5;
+}
+
+@media screen and (max-width: 700px) {
+    #portait {
+        height: 465px;
+        max-width: 100%;
+        margin: 55px auto 35px auto;
+        position: relative;
+        z-index: 5;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #portait {
+        height: 335px;
+        max-width: 100%;
+        margin: 55px auto 35px auto;
+        position: relative;
+        z-index: 5;
+    }
+}
+
+#portait2 {
+    /* min-height: 525px; */
+    width: 100%;
+    /* margin: 55px auto 35px auto; */
+    position: absolute;
+    left: -15px;
+    top: -15px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 700px) {
+    #portait2 {
+        /* min-height: 525px; */
+        width: 100%;
+        /* margin: 55px auto 35px auto; */
+        position: absolute;
+        top: -15px;
+        z-index: -1;
+    }
+}
+
+#tech_list {
+    min-height: 845px;
+    background-image: url("../images/Texture-fliped3.jpg");
+}
+
+#work {
+
+}
+
+#footer {
+    background-color: #1A1A1A;
+    color: #E71D36;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    padding: 45px 0px 45px 0px;
+    font-family: 'Montserrat', sans-serif; /* change to regular Monserrat for the header text */
+    font-weight: 400;
+    font-size: 8.5em;
+    margin: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        color: #fff;
+        text-align: center;
+        padding: 45px 0px 45px 0px;
+        font-family: 'Montserrat', sans-serif; /* change to regular Monserrat for the header text */
+        font-size: 4em;
+        margin: 0px;
+    }
+}
+
+h2 {
+    color: #fff;
+    text-align: left;
+    padding: 35px 0px 35px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    margin: 0px;
+    font-size: 4em;
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        color: #fff;
+        text-align: left;
+        padding: 35px 0px 35px 0px;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0px;
+        font-size: 1.8em;
+    }
+}
+
+
+h3 {
+    text-align: right;
+    padding: 25px 0px 25px 0px;
+    font-family: 'Economica', sans-serif;
+    margin: 0px;
+    font-size: 28pt;
+}
+
+h4 {
+    background-color: #ef1e1c;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 1.3em;
+    font-family: 'Economica', sans-serif;
+    margin: 20px 0px 10px 0px;
+}
+
+.card-font {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.digital_font {
+    color: #fff;
+    text-align: center;
+    font-family: 'OCR A', sans-serif;
+    font-size: 100pt;
+}
+
+@media screen and (max-width: 600px) {
+    .digital_font {
+        color: #fff;
+        text-align: center;
+        font-family: 'OCR A', sans-serif;
+        font-size: 70pt;
+    }
+}
+
+.red_background {
+    background-color: #E71D36;
+}
+
+.blue_background {
+    background-color: #1BE9ED;
+}
+
+div.main_vault {
+    width: 500px;
+    padding: 5px;
+}
+
+
+@media screen and (max-width: 600px) {
+    div.main_vault {
+        width: 300px;
+    }
+}
+/* 
+.sub-main {
+    min-height: 750px;
+}
+
+.relative {
+    position: relative;
+}
+
+.main_subtitle {
+    position: relative;
+    left:0;
+    bottom:10px;
+} */
+
+/* .profile-pic {
+    padding: 25px 10px 10px 5px;
+} */
+
+
+/* ///////////////////////////////////////////////////////////////////
+                              Fonts
+////////////////////////////////////////////////////////////////////// */
+
+@font-face{
+    font-family: Robo;
+    src: url('../fonts/Roboto-Light.ttf');
+}
+
+@font-face{
+    font-family: RoboLight;
+    src:url('../fonts/RobotoMono-Light.ttf');
+}
+
+div.tech_list{
+    font-family: RoboLight;
+    font-size: 12pt;
+}
+
+@font-face {
+    font-family: OCR A;
+    src: url('project_fonts/OCRAEXT.TTF');
+  }
+
+/* ///////////////////////////////////////////////////////////////////
+                              TechList
+////////////////////////////////////////////////////////////////////// */
+
+div.column_wrapper{
+    /* width: 1200px; */
+    background: rgba(54, 51, 51, 0.466);
+    color:#fff;
+}
+
+.margin_spacing {
+    margin: 25px 0px 25px 0px;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////////
+                              Links
+////////////////////////////////////////////////////////////////////// */
+
+a:hover {
+    text-decoration: none;
+}
+
+a.nav_link{
+    color:#fff;
+}
+
+a.link_blue {
+    color: #01baef;
+}
+
+/* ///////////////////////////////////////////////////////////////////
+                              Digital Blocks
+////////////////////////////////////////////////////////////////////// */
+
+div.dg_1 {
+    position: absolute;
+    background-color: #1BE9ED;
+    height: 65px;
+    width: 200px;
+    top: 5%;
+    left: 15%;
+    z-index: -1;
+}
+
+div.dg_2 {
+    position: absolute;
+    background-color: rgb(23, 107, 109);
+    height: 75px;
+    width: 200px;
+    top: 57%;
+    left: -75%;
+    z-index: -2;
+}
+
+div.dg_3 {
+    position: absolute;
+    background-color: #FFFFFF;
+    height: 50px;
+    width: 133px;
+    top: 30%;
+    left: 80%;
+    z-index: -2;
+}
+
+div.dg_4 {
+    position: absolute;
+    background-color: #424B54;
+    height: 45px;
+    width: 285px;
+    top: 80%;
+    left: 85%;
+    z-index: -2;
+}
+
+div.dg_5 {
+    position: absolute;
+    background-color: #424B54;
+    height: 45px;
+    width: 300px;
+    top: 87%;
+    left: 65%;
+    z-index: -2;
+}
+
+div.dg_6 {
+    position: absolute;
+    background-color: #E71D36;
+    height: 70px;
+    width: 350px;
+    top: 82%;
+    left: 0%;
+    z-index: -2;
+}
